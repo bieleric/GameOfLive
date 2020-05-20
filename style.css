@@ -1,0 +1,37 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#setupForm {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    background-color: aliceblue;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+#inputBinaryGame {
+    width: 90%;
+}
+
+
+#playButton, #nextButton {
+    width: 100px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
